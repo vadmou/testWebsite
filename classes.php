@@ -64,7 +64,12 @@
 
     }
 
-
+    $string = 'Он закончил школу в 2000 году';
+    $pattern = '/2002/';
+    
+    $result = preg_match($pattern, $string);
+    var_dump($result);
+    
     ?>
 
 </html>
